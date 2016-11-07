@@ -1,0 +1,137 @@
+
+/* Comments Tab Styles*/
+.comments > h4 {
+margin: 0px !important;
+padding: 5px 10px;
+}
+.comments-page {
+display: none;
+margin: 10px 10px 10px 10px;
+}
+#blogger-comments-page {
+padding: 0px 0px;
+}
+.comment-form {
+margin: 10px;
+}
+.comments-tab {
+color: #ffffff;
+padding: 5px;
+margin-right: 7px;
+margin-right: 7px;
+cursor: pointer;
+font-weight: bold;
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 5px 5px 0px 0px;
+position: relative;
+z-index: 10;
+}
+.comments-tab img { height: 15px;  width: auto;  margin: 0px 3px;}
+#blogger-comments,
+#blogger-comments.js-inactive-tab:hover {
+  -moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background-color:#f39c12;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #f39c12;
+}.blogger-comments:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eeaf41), color-stop(1, #ffce79) );
+	background:-moz-linear-gradient( center top, #eeaf41 5%, #f39c12 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeaf41', endColorstr='#ffce79');
+	background-color:#f39c12;
+}.blogger-comments:active {
+	position:relative;
+	top:1px;
+}
+#blogger-comments.js-inactive-tab {
+background-color: #f39c12;
+background-image: linear-gradient(#f39c12, #f39c12);
+background-image: -moz-linear-gradient(#f39c12, #f39c12);
+background-image: -webkit-linear-gradient(#f39c12, #f39c12);
+}
+#disqus-comments,
+#disqus-comments.js-inactive-tab:hover {
+	-moz-box-shadow:inset 0px 1px 0px 0px #2E9FFF;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #2E9FFF;
+	box-shadow:inset 0px 1px 0px 0px #2E9FFF;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2E9FFF), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #2E9FFF 5%, #2E9FFF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#2E9FFF;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}.disqus-comments:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}.disqus-comments:active {
+	position:relative;
+	top:1px;
+}
+
+#fb-comments,
+#fb-comments.js-inactive-tab:hover {
+	-moz-box-shadow:inset 0px 1px 0px 0px #3b5998;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #3b5998;
+	box-shadow:inset 0px 1px 0px 0px #3b5998;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3b5998), color-stop(1, #3b5998) );
+	background:-moz-linear-gradient( center top, #3b5998 5%, #3b5998 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b5998', endColorstr='#3b5998');
+	background-color:#3b5998;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	border:1px solid #3b5998;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #3b5998;
+}.fb-comments:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3b5998), color-stop(1, #3b5998) );
+	background:-moz-linear-gradient( center top, #3b5998 5%, #3b5998 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+	background-color:#3b5998;
+}.fb-comments:active {
+	position:relative;
+	top:1px;
+}
+#fb-comments.js-inactive-tab {
+background-color: #3b5998;
+background-image: linear-gradient(#3b5998, #3b5998);
+background-image: -moz-linear-gradient(#3b5998, #3b5998);
+background-image: -webkit-linear-gradient(#3B5998, #3b5998);
+}
+
+
+.js-inactive-tab {
+background-color: #e2e2e2;
+background-image: linear-gradient(#F4F4F4,#DDD);
+background-image: -moz-linear-gradient(#F4F4F4,#DDD);
+background-image: -webkit-linear-gradient(#F4F4F4,#DDD);
+}
